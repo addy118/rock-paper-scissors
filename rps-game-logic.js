@@ -108,9 +108,9 @@ function newGame() {
   localStorage.removeItem('ls-score');
   updateScore();
   document.querySelector('.computer')
-    .innerHTML = `<p>Computer</p><img src="tleft-emoji.png" alt="computer" class="emoji">`
+    .innerHTML = `<p>Computer</p><img src="images/tleft-emoji.png" alt="computer" class="emoji">`
   document.querySelector('.player')
-    .innerHTML = `<p>You</p><img src="tright-emoji.png" alt="player" class="emoji">`
+    .innerHTML = `<p>You</p><img src="images/tright-emoji.png" alt="player" class="emoji">`
   document.querySelector('.js-result').innerHTML = '&nbsp'
   
   if (isAutoPlaying) {
