@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors</title>
+  <link rel="icon" type="image/png" href="../icons/addy-red.png">
+  <link rel="stylesheet" href="rps.css">
+</head>
+<body>
+<h1>Rock Paper Scissors</h1>
+
+<br>
+
+<div>
+  <button class="move-button js-rock"><img class="emoji" src="rock-emoji.png"  alt="rock"></button>
+  
+  <button class="move-button js-paper"><img class="emoji" src="paper-emoji.png"  alt="paper"></button>
+  
+  <button class="move-button js-scissor"><img class="emoji" src="scissor-emoji.png"  alt="scissor"></button>
+</div>
+
+<br>
+
+<div class="moves">
+  <div class="computer">
+    <p>Computer</p>
+    <img src="tleft-emoji.png" alt="think left" class="emoji">
+  </div>
+  
+  <div class="vs"><img src="vs-emoji.png" alt="vs" class="emoji"></div>
+  
+  <div class="player">
+    <p>You</p>
+    <img src="tright-emoji.png" alt="think right" class="emoji">
+  </div>
+</div>
+<p class="js-result">&nbsp</p>
+
+<br>
+
+<table>
+  <tr>
+    <td class="score" colspan="3">S C O R E</td>
+  </tr>
+  <tr>
+    <th>Wins</th>
+    <th>Losses</th>
+    <th>Ties</th>
+  </tr>
+  <tr>
+    <td class="js-wins">0</td>
+    <td class="js-losses">0</td>
+    <td class="js-ties">0</td>
+  </tr>
+</table>
+
+<br>
+
+<div>
+  <button class="new-game js-new">New Game</button>
+  <button class="auto-play js-auto">Auto Play</button>
+  <p class="js-new-confirm">&nbsp</p>
+</div>
+
+<script src="rps-game-logic.js"></script>
+<script src="rps-events.js"></script>
+</body>
+</html>

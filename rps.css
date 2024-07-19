@@ -1,0 +1,96 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin-top: 50px;
+    background-color: #191919;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    color: #191919;
+    border-collapse: collapse;
+    width: 450px;
+    text-align: center;
+    border-radius: 50px;
+}
+tr, th, td {
+    border: 1px solid #191919;
+    width: 33%;
+    padding: 10px;
+}
+th, td {
+    background-color: lightyellow;
+}
+
+.score {
+    font-size: 24px;
+    background-color: orange;
+}
+
+.move-button {
+    width: 100px;
+    height: 100px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 2px solid whitesmoke;
+    border-radius: 50px;
+    margin: 0 14px;
+    cursor: pointer;
+}
+
+.emoji {
+    width: 50px;
+    height: 50px;
+}
+
+.moves {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px
+}
+.computer, .player {
+    text-align: center;
+}
+
+.new-game,
+.auto-play {
+    width: 200px;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 8px 16px;
+    background-color: orange;
+    color: white;
+    border: 2px solid white;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    cursor: pointer;
+}
+
+.auto-play {
+    margin: 0 0 0 30px;
+}
+
+.confirmation-box {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
+
+.confirm {
+    margin: 0 5px;
+    padding: 5px 10px;
+    background-color: orange;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 6px;
+}
